@@ -23,9 +23,9 @@ const Login = ({navigation}) => {
   return (
     <SafeAreaView style={styles.page}>
       <View style={styles.container}>
+      <Text style={styles.title}>Selamat Datang</Text>
         <Image source={Images.ICLogo} style={styles.image} />
-        <Text style={styles.title}>Si Ternak</Text>
-        <TextInput
+                <TextInput
           placeholder="Email"
           keyboardType="email-address"
           style={styles.emailInput}
@@ -62,13 +62,15 @@ const styles = StyleSheet.create({
   },
   image: {
     alignSelf: 'center',
+    marginBottom: 70,
   },
   title: {
     fontSize: 26,
     fontWeight: 'bold',
     color: '#F2F2F2',
+    fontFamily: 'tahoma',
     alignSelf: 'center',
-    marginBottom: 77,
+    marginBottom: 70,
     marginTop: 10,
   },
   emailInput: {
