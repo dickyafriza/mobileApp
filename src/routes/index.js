@@ -1,7 +1,8 @@
+/* eslint-disable prettier/prettier */
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import * as React from 'react';
-import {Login} from '../pages';
+import {Login} from '../Pages';
 
 const Stack = createStackNavigator();
 
@@ -18,4 +19,5 @@ function Routes() {
     </NavigationContainer>
   );
 }
+
 export default Routes;
