@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 const Assets = {
   ICLogo: require('./logo.png'),
   ICHome: require('./home.png'),
