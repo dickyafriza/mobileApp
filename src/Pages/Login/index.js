@@ -11,7 +11,6 @@ import {
 } from 'react-native';
 import Images from '../../assets';
 
-
 const Login = ({navigation}) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -23,9 +22,9 @@ const Login = ({navigation}) => {
   return (
     <SafeAreaView style={styles.page}>
       <View style={styles.container}>
-      <Text style={styles.title}>Selamat Datang</Text>
+        <Text style={styles.title}>Selamat Datang</Text>
         <Image source={Images.ICLogo} style={styles.image} />
-                <TextInput
+        <TextInput
           placeholder="Email"
           keyboardType="email-address"
           style={styles.emailInput}
