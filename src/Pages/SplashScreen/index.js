@@ -1,14 +1,12 @@
 /* eslint-disable prettier/prettier */
-import React, {useEffect} from 'react';
+import React from 'react';
 import {Text, View, StyleSheet} from 'react-native';
 import {Logo} from '../../assets';
-import {Gap} from '../../components';
 
-const SplashScreen = ({navigation}) => {
+const SplashScreen = () => {
   return (
-    <View style={styles.container}>
+    <View>
       <Logo />
-      <Gap height={38} />
       <Text style={styles.text}>SiTernak</Text>
     </View>
   );

@@ -24,7 +24,7 @@ const Login = ({navigation}) => {
     <SafeAreaView style={styles.page}>
       <View style={styles.container}>
         <Text style={styles.title}>Selamat Datang</Text>
-        <Image source={Images.ICLogo} style={styles.image} />
+        <Image source={Images.Logo} style={styles.image} />
         <TextInput
           placeholder="Email"
           keyboardType="email-address"
